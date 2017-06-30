@@ -58,7 +58,7 @@ public class GameController : MonoBehaviour
 
 			if (gameOver)
 			{
-				restartText.text = "Press 'R' to start over";
+				restartText.text = "Press 'R' for restart";
 				restart = true;
 				break;
 			}
